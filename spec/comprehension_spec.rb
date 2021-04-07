@@ -174,7 +174,7 @@ describe "GIT" do
 # describe "MERGING:" do
   it '23. To merge a feature branch into master, you must first be on master' do
     # "true" or "false", in a string
-    answer = "?"
+    answer = "true"
     encoded_answer = "5ffe533b830f08a0326348a9160afafc8ada44db"
     expect(encode(answer)).to eq(encoded_answer)
   end
