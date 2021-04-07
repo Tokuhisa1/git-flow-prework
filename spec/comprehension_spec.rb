@@ -137,7 +137,7 @@ describe "GIT" do
   it "19. 'git branch style-image' followed by 'git checkout style-image' 
       is the same as 'git checkout -b style-image'" do
     # "true" or "false", in a string
-    answer = "?"
+    answer = "true"
 
     encoded_answer = "5ffe533b830f08a0326348a9160afafc8ada44db"
     expect(encode(answer)).to eq(encoded_answer)
