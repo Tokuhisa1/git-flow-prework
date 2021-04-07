@@ -256,7 +256,7 @@ describe "GIT" do
       someone else pushes two commits to it, will 'git status' say you are ahead or 
       behind when you run it at 12:05pm" do
     # "ahead" or "behind" or "ahead and behind"
-    answer = "?"
+    answer = "behind"
     encoded_answer = "fb6dbd81382d78f0f0633759a9c6033858e445b5"
     expect(encode(answer)).to eq(encoded_answer)
   end
