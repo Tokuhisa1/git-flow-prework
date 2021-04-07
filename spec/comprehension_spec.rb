@@ -197,7 +197,7 @@ describe "GIT" do
   it "26. Once you've resolved merge conflicts, you must stage and commit the files
       in which there were conflicts" do
     # "true" or "false", in a string
-    answer = "?"
+    answer = "true"
 
     encoded_answer = "5ffe533b830f08a0326348a9160afafc8ada44db"
     expect(encode(answer)).to eq(encoded_answer)
