@@ -129,7 +129,7 @@ describe "GIT" do
 
   it "18. What is the one line syntax for creating and switching to a branch called 
      'add-nav-bar'?" do
-    answer = "?"
+    answer = "git checkout -b add-nav-bar"
     encoded_answer = "f6317616a8601aeb64c0f27f71a4b7bf9e3b8453"
     expect(encode(answer)).to eq(encoded_answer)
   end
