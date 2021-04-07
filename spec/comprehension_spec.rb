@@ -181,7 +181,7 @@ describe "GIT" do
 
   it "24. What is the syntax for merging the local feature branch called 
       'update-color-scheme' into master, assuming you're already on master" do
-    answer = "?"
+    answer = "git merge update-color-scheme"
     encoded_answer = "38db6e269e805c09ea6c4bc4eb1bb83829e7504c"
     expect(encode(answer)).to eq(encoded_answer)
   end
