@@ -231,7 +231,7 @@ describe "GIT" do
 # describe "STATUS" do
   it "30. If index.html is being tracked and you modify it, but don't stage this change,
       what color will it be if you run 'git status'?" do
-    answer = "?"
+    answer = "red"
     encoded_answer = "78988010b890ce6f4d2136481f392787ec6d6106"
     expect(encode(answer)).to eq(encoded_answer)
   end
